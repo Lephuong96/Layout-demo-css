@@ -5,10 +5,15 @@ h1{
     color: blue;
     text-align: center;
 }
+#main{
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    width: 1140px;
+}
 #head{
     background-color: #333333;
     width: 100%;
-    height: 200px;
+    height: 230px;
     top: 0;
 }
 #header{
@@ -18,52 +23,62 @@ h1{
 }
 #logo{
     background-color: #f2f2f2;
-    width: 30%;
+    width: 270px;
     height: 150px;
     float: left;
+    margin: 10px;
 }
 #banner{
     background-color: azure;
-    width: 70%;
+    width: 840px;
     height: 150px;
     float: left;
+    margin: 10px 10px 10px 0;
 }
 #head-link{
-    background-color: #333333;
-    width: 100%;
+    background-color: #f2f2f2;
+    width: 1120px;
     height: 50px;
+    clear: both;
+    margin: 0 10px 10px 10px;
+
 }
 #head-link a{
     float: left;
     display: block;
     color: blue;
     text-align: center;
-    padding: 10px 50px;
+    padding: 10px 69px;
     text-decoration: none;
     font-size: 25px;
 }
 #left{
     background-color: yellow;
-    width: 15%;
+    width: 170px;
     height: 800px;
     float: left;
+    margin: 10px 5px 10px 10px;
 
 }
 #content{
     background-color: blueviolet;
-    width: 55%;
+    width: 590px;
     height: 800px;
     float: left;
+    margin: 10px 5px 10px 5px;
 }
 #right{
     background-color: azure;
-    width: 30%;
+    width: 340px;
     height: 800px;
     float: left;
+    margin: 10px 10px 10px 5px;
 }
 #footer{
     background-color: darkcyan;
-    width: 100%;
+    width: 1120px;
     height: 100px;
+    clear: both;
+    margin: 0 auto;
 }
 
